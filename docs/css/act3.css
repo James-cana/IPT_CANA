@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h1 {
+    margin-left: 35%;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.photo-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+}
+
+.container {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    flex: 0 0 150px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 3px 0;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.signature {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+.full-width {
+    flex-basis: 100%;
+}
